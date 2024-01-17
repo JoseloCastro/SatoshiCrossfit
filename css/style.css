@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    font-family: 'Open Sans', 
+    sans-serif;
+    color: #cbb868;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+p{
+    font-size: 30px;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+nav ul li{
+display:inline;
+word-spacing: 70px;
+}
+        nav ul li a{
+        color: black;
+        justify-content: space-between;
+         }
+main section h1{
+    text-align: center;
+    font-size: 45px;
+}
+main section h2{
+    font-size: 50px;
+}
+
+header img{
+width: 100%;
+height: auto;
+position: relative;
+}
+
+.menu{ 
+   background-color:  rgb(203, 184, 104, 0.7);
+   padding: 8px 20px;
+    
+}
+ .menu img{
+    width: 50px;
+}
+    .menu ul{
+    display: flex;  
+    
+    }
+    .menu ul li{
+        margin-right: 23px;
+    }
+    .menu ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    }
+header section img{
+    width:300px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+   
+
+
+.footer{
+    background-color:  #cbb868 ;
+    display: flex;
+    align-items: center;
+    
+}
+    .footer img{
+        width: 66px;
+        padding: 30px 15px;
+        display:inline-block;  
+    }
+        
+    footer h4{
+        color: black;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+.bg-yellow{
+    background-color:  #cbb868;
+}
+
+.background-pattern{
+    background-color:black;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+    .image-container h1{
+        display: flex;
+        font-size: 65px;
+        flex-direction: row;
+        text-align: center;
+    }
+
+.text-over-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: #cbb868;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .text-over-image img {
+        width: 20%;
+         display: flex;
+    }   
+    .text-over-image p{
+        font-size: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+.instalaciones{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+    
+    
+    .instalaciones img{
+        width: 20%;
+        border-radius: 5%;
+    }
+
+.promociones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+        .promociones h1{
+            text-align: center;
+            font-size: 80px;
+
+        }
+        .promociones img{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 2%;
+}
+.contacto-bottom{
+    display: flex;
+    padding-left: 2%;
+}
+
+/* Inicia responsive */
+@media (width < 1004px){
+    .text-over-image p{
+        font-size: 15px;
+    }
+}
+@media (width < 830px){
+    .image-container h1{
+        font-size: 42px;
+    }
+}
+@media (width < 660px){
+    .image-container h1{
+        font-size:30px;
+    }
+    .instalaciones{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        }
+    .instalaciones img{
+        width: 55%;
+        margin-top: 40px;
+        }
+        main section h2{
+            font-size: 35px;
+        }
+}
+@media (width < 560px){
+    .text-over-image p{
+        font-size: 15px;
+       padding-top: 15px;
+    }
+    .instalaciones img{
+        width: 45%;
+    }
+}
+@media (width < 510px){
+    .image-container h1{
+        font-size:20px;
+    }
+    .text-over-image p{
+        font-size: 10px;
+       padding-top: 15px;
+    }
+}
+@media (width < 400px){
+    .image-container h1{
+        font-size:20px;
+    }
+    .text-over-image p{
+        font-size: 7px;
+       padding-top: 15px;
+    }
+    main section h2{
+        font-size: 25px;
+    }
+}
+@media (width < 400px){
+    .image-container h1{
+        font-size:20px;
+    }
+    .text-over-image p{
+        font-size: 5px;
+       padding-top: 15px;
+    }
+}
+
+ 
+
+    
+
+
+
