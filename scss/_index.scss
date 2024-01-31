@@ -1,0 +1,129 @@
+header{
+    img{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+.menu{ 
+    background-color: $secondColor;
+    padding: 8px 20px;
+    img{
+        width: $lg;
+    }
+    ul{
+        display: flex;
+    }
+    ul{
+        li{
+            margin-right: $md;
+        }
+    }
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                font-size: $md;
+                color:$thirdcolor;
+            }
+        }
+    }
+
+}
+header{
+    img{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    section{
+        img{
+            width:300px;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+        }
+    }
+}
+.footer{
+    background-color: $mainColor;
+    display: flex;
+    align-items: center;
+    img{
+        width: 66px;
+        padding: 30px 15px;
+        display:inline-block
+    }
+    h4{
+        color:$thirdcolor;
+        font-size: $sm;
+        margin-right: $sm;
+    }
+}
+.bg-yellow{
+    background-color: $mainColor;
+}
+.background-pattern{
+    background-color: $thirdcolor;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    h1{
+        display: flex;
+        font-size: $xl;
+        flex-direction: row;
+        text-align: center;
+    }
+}
+.text-over-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 20%;
+        display: flex;
+    }
+    p{
+        font-size: $md2;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+.instalaciones{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        img{
+            width: 20%;
+            border-radius: 5%;
+      }
+}
+.promociones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-align: center;
+        font-size: $xxl;
+    }
+    img{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    label{
+        color: $mainColor;
+    }
+}

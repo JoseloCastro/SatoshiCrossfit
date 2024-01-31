@@ -1,0 +1,79 @@
+.text-over-image{
+    p{
+        @media (width < 1004px){
+            font-size: 15px;
+        }
+        @media (width < 560px){
+            font-size: 15px;
+            padding-top: 15px;
+        }
+        @media (width < 510px){
+            font-size: 10px;
+            padding-top: 15px;
+        }
+        @media (width < 400px){
+            font-size: 7px;
+            padding-top: 15px;
+        }
+        @media (width < 320px){
+            font-size: 5px;
+            padding-top: 15px;
+        }
+
+    }
+}
+.image-container{
+    h1{
+        @media (width < 830px){
+            font-size: 42px;
+        }
+        @media (width < 660px){
+            font-size:30px;
+        }
+        @media (width < 510px){
+            font-size:$sm;
+        }
+        @media (width < 400px){
+            font-size:$sm;
+        }
+        @media (width < 320px){
+            font-size: $sm;
+        }
+
+    }
+}
+.instalaciones{
+    @media (width < 660px){
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: $sm;
+    }
+    img{
+        @media (width < 660px){
+            width: 55%;
+            margin-top: 40px;
+        }
+        @media (width < 560px){
+            width: 45%;
+        }
+    }
+}
+main{
+    section{
+        h2{
+            @media (width < 660px){
+                font-size: 35px;
+            }
+            @media (width < 400px){
+                font-size: $md2;
+            } 
+        }
+    }
+}
+
+
+
+
+
+
+

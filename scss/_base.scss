@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+//variables
+$mainFont: 'Open Sans', sans-serif;
+//variables
+
+//color
+$mainColor: #cbb868;
+$secondColor:  rgb(203, 184, 104, 0.7);
+$thirdcolor: black;
+//color
+
+//Tamaños
+$sm: 20px;
+$md: 23px;
+$md2: 25px;
+$lg: 50px;
+$xl: 65px;
+$xxl: 70px;
+//tamaños
+
+*{
+    font-family: 'Open Sans', 
+    sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    font-family: $mainFont;
+    color: $mainColor;
+    text-align: center;
+}
+h2{
+    font-size: $lg;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+p{
+    font-size: $md2;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+    padding: $lg;
+    color: $mainColor;
+}
+

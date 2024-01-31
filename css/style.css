@@ -22,23 +22,6 @@ p{
     padding: 50px;
 }
 
-
-nav ul li{
-display:inline;
-word-spacing: 70px;
-}
-        nav ul li a{
-        color: black;
-        justify-content: space-between;
-         }
-main section h1{
-    text-align: center;
-    font-size: 45px;
-}
-main section h2{
-    font-size: 50px;
-}
-
 header img{
 width: 100%;
 height: auto;
@@ -71,14 +54,6 @@ header section img{
     margin: auto;
     margin-top: 5px;
 }
-.map{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    
-}
-   
-
 
 .footer{
     background-color:  #cbb868 ;
@@ -159,7 +134,7 @@ header section img{
 }
         .promociones h1{
             text-align: center;
-            font-size: 80px;
+            font-size: 70px;
 
         }
         .promociones img{
@@ -169,16 +144,7 @@ header section img{
         align-items: center;
         }
         
-.contacto{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    padding-left: 2%;
-}
-.contacto-bottom{
-    display: flex;
-    padding-left: 2%;
-}
+
 
 /* Inicia responsive */
 @media (width < 1004px){
@@ -238,7 +204,7 @@ header section img{
         font-size: 25px;
     }
 }
-@media (width < 400px){
+@media (width < 320px){
     .image-container h1{
         font-size:20px;
     }
